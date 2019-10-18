@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>nux-sp-desktop</title>
   <link rel="stylesheet" href="./libs/swiper/css/swiper.min.css">
-  <link rel="stylesheet" href="./libs/animate.min.css">
+  <link rel="stylesheet" href="./libs/animate.css">
   <link rel="stylesheet" href="./css/nux-sp.less">
   <link rel="stylesheet" href="./css/style.less" />
   {% block head %}
