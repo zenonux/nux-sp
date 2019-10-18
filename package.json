@@ -1,0 +1,14 @@
+{
+  "name": "base_template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "cd src && fis3 release -wL",
+    "build": "cd src && fis3 release prod"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,136 @@
+// out: false
+@color-text: #212121;
+@color-primary: rgba(185, 12, 12, 1);
+@color-accent: #f7762e;
+@color-dark: #000000;
+@color-label: #ff9a26;
+@color-bg: rgba(242, 242, 242, 1);
+@color-red: #f56c6c;
+@color-orange: #ffaf15;
+@color-gray: #999;
+@color-border: #e1e1e1;
+
+// 右箭头
+.arrow-right(@width:10px,@color:#ccc) {
+  display: block;
+  width: @width;
+  height: @width;
+  border-top: solid 1px @color;
+  border-right: solid 1px @color;
+  transform: rotate(45deg);
+}
+
+// 左箭头
+.arrow-left(@width:10px,@color:#ccc) {
+  display: block;
+  width: @width;
+  height: @width;
+  border-top: solid 1px @color;
+  border-left: solid 1px @color;
+  transform: rotate(-45deg);
+}
+
+// 下箭头
+.arrow-down(@width:10px,@color:#ccc) {
+  display: block;
+  width: @width;
+  height: @width;
+  border-top: solid 1px @color;
+  border-right: solid 1px @color;
+  transform: rotate(135deg);
+}
+
+// 上三角
+.tri-up(@width:10px,@color:#ccc) {
+  width: 0;
+  height: 0;
+  border-width: @width;
+  border-style: solid;
+  border-color: transparent transparent @color transparent;
+}
+
+// 下三角
+.tri-down(@width:20rpx,@color:#ccc) {
+  width: 0;
+  height: 0;
+  border-width: @width;
+  border-style: solid;
+  border-color: @color transparent transparent transparent;
+}
+
+// 两端对齐
+.flex-justify() {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+// 水平垂直居中
+.flex-center() {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// 单行均匀分布有边距
+.flex-around() {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+// 垂直居中
+.flex-v-center() {
+  display: flex;
+  align-items: center;
+}
+
+// 右对齐
+.flex-h-right {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+// 顶部对齐
+.flex-v-top {
+  display: flex;
+  align-items: stretch;
+}
+
+// 底部对齐
+.flex-v-bottom {
+  display: flex;
+  align-items: baseline;
+}
+
+// 图片容器
+.img(@width) {
+  display: block;
+  width: @width;
+  height: @width;
+}
+
+// 清除浮动
+.clearfix() {
+  &:before,
+  &:after {
+    display: table;
+    content: '';
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+// 多行文本溢出
+.m-ellipsis(@line-height,@line) {
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-height: @line-height;
+  height: @line-height * @line;
+  -webkit-line-clamp: @line;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
