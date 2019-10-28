@@ -10,11 +10,12 @@
 
 ```
 npm i fis3 -g
-npm i fis3-hook-relative -g
 npm i fis3-parser-swig2 -g
+npm i fis-parser-less -g
 npm i fis-parser-less-2.x -g
 npm i fis3-parser-typescript -g
 npm i fis3-preprocessor-autoprefixer -g
+npm i fis3-deploy-filter -g
 ```
 
 ### 开发环境 
