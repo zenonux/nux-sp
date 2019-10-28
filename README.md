@@ -2,6 +2,7 @@
 * Node 11.9.0以下
 * fis3
 * fis3-parser-swig2 
+* fis-parser-less
 * fis-parser-less-2.x
 * fis3-parser-typescript
 * fis3-preprocessor-autoprefixer
