@@ -2,7 +2,6 @@
 * Node 11.9.0以下
 * fis3
 * fis3-parser-swig2 
-* fis-parser-less
 * fis-parser-less-2.x
 * fis3-parser-typescript
 * fis3-preprocessor-autoprefixer
@@ -11,7 +10,6 @@
 ```
 npm i fis3 -g
 npm i fis3-parser-swig2 -g
-npm i fis-parser-less -g
 npm i fis-parser-less-2.x -g
 npm i fis3-parser-typescript -g
 npm i fis3-preprocessor-autoprefixer -g
