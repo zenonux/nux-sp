@@ -16,10 +16,15 @@ npm i fis3-preprocessor-autoprefixer -g
 npm i fis3-deploy-filter -g
 ```
 
+
+### 开启静态服务器
+```
+fis3 server start  //启动静态资源服务器,启动后访问http://localhost:8080,启动后关机才会关闭此服务器
+```
+
 ### 开发环境 
 ```
-fis3 server start
-npm start
+npm start          //确保静态服务器已开启
 ```
 
 ### 部署环境
