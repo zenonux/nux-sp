@@ -1,5 +1,5 @@
 ### 安装部署
-* Node 11.9.0以下 [下载](https://nodejs.org/download/release/latest-v10.x/)
+* Node 11.9.0以下 [下载地址](https://nodejs.org/download/release/latest-v10.x/)
 * fis3
 * fis3-parser-swig2 
 * fis-parser-less-2.x
