@@ -19,7 +19,7 @@ npm i fis3-deploy-filter -g
 
 ### 开启静态服务器
 ```
-fis3 server start  //启动静态资源服务器,启动后访问http://localhost:8080,启动后关机才会关闭此服务器
+fis3 server start  //启动静态资源服务器,之后就可以访问http://localhost:8080,电脑关机才会关闭此服务器
 ```
 
 ### 开发环境 
