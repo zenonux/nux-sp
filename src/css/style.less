@@ -34,6 +34,44 @@ body {
       align-items: center;
       height: 95px;
     }
+    .search-part {
+      .flex-v-center();
+      .search-box {
+        margin-right: 65px;
+        .flex-center();
+        border: solid 1px @color-primary;
+        border-radius: 40px;
+        overflow: hidden;
+        .search-text {
+          width: 350px;
+          border: none;
+          padding: 0 15px;
+          height: 40px;
+          line-height: 40px;
+          outline: 0;
+        }
+        .btn-search {
+          width: 65px;
+          height: 40px;
+          cursor: pointer;
+          .flex-center();
+          background: @color-primary;
+        }
+      }
+      .imgs {
+        .flex-v-center();
+        margin-right: 80px;
+      }
+      .icon {
+        display: block;
+        margin: 0 auto;
+      }
+      .item {
+        padding: 0 5px;
+        color: #999;
+        font-size: 12px;
+      }
+    }
   }
 }
 .page-container {

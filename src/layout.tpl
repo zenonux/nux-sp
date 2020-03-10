@@ -32,10 +32,40 @@
         </div>
       </div>
       <div class="logo-search">
-        <div class="page-container">
+        <div class="page-container flex-justify">
           <a href="/" class="logo">
             <img src="../src/img/logo.png" />
           </a>
+          <div class="search-part">
+            <div class="search-box">
+              <input type="text" class="search-text" />
+              <div class="btn-search">
+                <img src="../src//img/icon_search.png" alt="" />
+              </div>
+            </div>
+            <div class="imgs">
+              <div class="item">
+                <img src="../src/img/icon_by.png" alt="" class="icon" />
+                <div class="text">全国包邮</div>
+              </div>
+              <div class="item">
+                <img src="../src/img/icon_zp.png" alt="" class="icon" />
+                <div class="text">正品保证</div>
+              </div>
+              <div class="item">
+                <img src="../src/img/icon_lb.png" alt="" class="icon" />
+                <div class="text">全国联保</div>
+              </div>
+              <div class="item">
+                <img src="../src/img/icon_48.png" alt="" class="icon" />
+                <div class="text">48小时发货</div>
+              </div>
+              <div class="item">
+                <img src="../src/img/icon_sh.png" alt="" class="icon" />
+                <div class="text">售后无忧</div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
