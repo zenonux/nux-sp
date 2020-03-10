@@ -69,6 +69,67 @@
         </div>
       </div>
     </div>
+
+    <div class="page-footer">
+      <div class="page-container">
+        <div class="top">
+          <div class="section">
+            <img src="../src//img/icon_foot_zp.png" alt="" class="icon" />
+            <div class="text">
+              <div class="title">官方直销</div>
+              <div class="desc">浙江美大官方商城</div>
+            </div>
+          </div>
+          <div class="section">
+            <img src="../src/img/icon_foot_ss.png" alt="" class="icon" />
+            <div class="text">
+              <div class="title">A股上市公司</div>
+              <div class="desc">股票代码002677</div>
+            </div>
+          </div>
+          <div class="section">
+            <img src="../src/img/icon_foot_kc.png" alt="" class="icon" />
+            <div class="text">
+              <div class="title">集成灶行业开创者</div>
+              <div class="desc">行业特别贡献奖</div>
+            </div>
+          </div>
+        </div>
+        <div class="links">
+          <div class="section">
+            <div class="title">购物指南</div>
+            <a class="desc" href="">注册登录</a>
+            <a class="desc" href="">免责声明</a>
+            <a class="desc" href="">交易条款</a>
+            <a class="desc" href="">购物流程</a>
+            <a class="desc" href="">自助购物</a>
+          </div>
+          <div class="section">
+            <div class="title">售后服务</div>
+            <a class="desc" href="">退换货说明</a>
+            <a class="desc" href="">安装指南</a>
+            <a class="desc" href="">服务政策</a>
+          </div>
+          <div class="section">
+            <div class="title">物流配送</div>
+            <a class="desc" href="">安装说明</a>
+            <a class="desc" href="">配送方式</a>
+          </div>
+          <div class="section">
+            <div class="title">付款方式</div>
+            <a class="desc" href="">支付宝支付</a>
+            <a class="desc" href="">发票说明</a>
+          </div>
+          <div class="section">
+            <div class="title">常见问题</div>
+            <a class="desc" href="">订单常见问题</a>
+          </div>
+        </div>
+        <div class="copyrights">
+          浙江美大官方商城@2014-2016，All Rights Reserved.[浙ICP备0903774号]
+        </div>
+      </div>
+    </div>
     {% block content %} {% endblock %}
     <div class="page-footer"></div>
     <script src="./libs/jquery-3.2.1.min.js"></script>
