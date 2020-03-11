@@ -69,6 +69,7 @@
         </div>
       </div>
     </div>
+    {% block content %} {% endblock %}
 
     <div class="page-footer">
       <div class="page-container">
@@ -130,12 +131,9 @@
         </div>
       </div>
     </div>
-    {% block content %} {% endblock %}
-    <div class="page-footer"></div>
     <script src="./libs/jquery-3.2.1.min.js"></script>
     <script src="./libs/layer/layer.js"></script>
     <script src="./libs/swiper/js/swiper.min.js"></script>
-    <script src="./libs/swiper.animate1.0.3.min.js"></script>
     <script src="./libs/nux-sp.js"></script>
     {% block script %} {% endblock %}
   </body>
