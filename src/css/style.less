@@ -4,6 +4,7 @@
 html,
 body {
   font-size: 14px;
+  background: #f5f5f5;
 }
 .page-header {
   .toolbar {
@@ -122,5 +123,147 @@ body {
     padding: 20px 0;
     text-align: center;
     color: #bbbbbb;
+  }
+}
+
+.page-home {
+  .banner-product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .list {
+      flex: 1;
+      &:hover {
+        box-shadow: 0 1px 15px #aaa;
+      }
+      border-left: solid 1px #d2d2d2;
+      border-bottom: solid 1px #d2d2d2;
+      &:last-child {
+        border-right: solid 1px #d2d2d2;
+      }
+      text-align: center;
+      .title {
+        font-size: 22px;
+        margin-bottom: 10px;
+      }
+      .desc {
+        font-size: 16px;
+        color: #666666;
+        margin-bottom: 20px;
+      }
+      .pic-box {
+        height: 170px;
+        overflow: hidden;
+        position: relative;
+        .flex-center();
+        img {
+          max-width: 80%;
+          max-height: 100%;
+        }
+      }
+    }
+  }
+
+  .section-hot {
+    .section-head {
+      font-size: 32px;
+      margin-bottom: 25px;
+    }
+    .left,
+    .right {
+      text-align: center;
+    }
+    .left {
+      width: 500px;
+      height: 700px;
+      &:hover {
+        box-shadow: 0 0 15px #aaa;
+      }
+      .pic-box {
+        height: 570px;
+        .flex-center();
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+    .right {
+      width: 700px;
+    }
+    .list {
+      float: left;
+      width: 50%;
+      &:nth-child(2) {
+        background: #fff;
+      }
+      &:nth-child(3) {
+        background: #fff;
+      }
+      height: 350px;
+      .pic-box {
+        height: 240px;
+        .flex-center();
+        img {
+          max-width: 100%;
+          max-height: 100%;
+        }
+      }
+    }
+    .title {
+      font-size: 20px;
+    }
+    .desc {
+      font-size: 14px;
+      color: #666;
+    }
+    .price {
+      color: #d00000;
+      display: flex;
+      justify-content: center;
+      font-size: 24px;
+      align-items: baseline;
+      .yuan {
+        font-size: 16px;
+        margin-right: 5px;
+      }
+    }
+  }
+  .section-rank {
+    .section-head {
+      font-size: 32px;
+      margin-bottom: 25px;
+      display: flex;
+      align-items: center;
+      .tabs {
+        .flex-v-center();
+        margin-left: 30px;
+        .tab {
+          margin: 0 20px;
+          color: #838383;
+          cursor: pointer;
+          font-size: 18px;
+          &:hover {
+            color: @color-primary;
+          }
+        }
+        .tab-active {
+          color: @color-primary;
+        }
+      }
+    }
+    .list-wrapper {
+      .clearfix();
+      margin-left: -30px;
+    }
+    .list-box {
+      float: left;
+      width: 100% / 3;
+      padding-left: 30px;
+    }
+    .list {
+      position: relative;
+      text-align: center;
+    }
   }
 }
