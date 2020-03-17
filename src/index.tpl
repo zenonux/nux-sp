@@ -1,67 +1,49 @@
 {% extends './layout.tpl' %} {% block content %}
 <div class="page-container page-home">
-  <div class="navbar">
-    <div class="menu">
-      <div class="menu-item">
-        <div class="icon icon-jcz"></div>
-        集成灶
-        <div class="submenu">
-          <div class="submenu-item">
-            <div class="title">
-              集成灶
-            </div>
-            <a href="" class="opts">侧吸式</a>
-            <a href="" class="opts">环吸式</a>
-          </div>
-        </div>
-      </div>
-      <div class="menu-item">
-        <div class="icon icon-zx"></div>
-        蒸箱/烤箱
-        <div class="submenu">
-          <div class="submenu-item">
-            <div class="title">
-              蒸箱/烤箱
-            </div>
-            <a href="" class="opts">侧吸式</a>
-            <a href="" class="opts">环吸式</a>
-          </div>
-        </div>
-      </div>
-      <div class="menu-item">
-        <div class="icon icon-jsq"></div>
-        净水器
-      </div>
-      <div class="menu-item">
-        <div class="icon icon-sc"></div>
-        水槽
-      </div>
-      <div class="menu-item">
-        <div class="icon icon-pj"></div>
-        配件
-      </div>
-    </div>
-    <div class="nav-spec">
-      <img src="../src/img/icon_menu.png" alt="" class="icon mr10" />
-      全部商品分类
-    </div>
-    <a href="" class="nav nav-active">
-      首页
-    </a>
-    <a href="" class="nav">
-      企业简介
-    </a>
-    <a href="" class="nav">
-      免责声明
-    </a>
-    <a href="" class="nav">
-      安装指南
-    </a>
-    <a href="" class="nav">
-      买家须知
-    </a>
-  </div>
+
   <div class="banner swiper-container">
+    <div class="navbar">
+      <div class="menu">
+        <div class="menu-item">
+          <div class="icon icon-jcz"></div>
+          集成灶
+          <div class="submenu">
+            <div class="submenu-item">
+              <div class="title">
+                集成灶
+              </div>
+              <a href="" class="opts">侧吸式</a>
+              <a href="" class="opts">环吸式</a>
+            </div>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="icon icon-zx"></div>
+          蒸箱/烤箱
+          <div class="submenu">
+            <div class="submenu-item">
+              <div class="title">
+                蒸箱/烤箱
+              </div>
+              <a href="" class="opts">侧吸式</a>
+              <a href="" class="opts">环吸式</a>
+            </div>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="icon icon-jsq"></div>
+          净水器
+        </div>
+        <div class="menu-item">
+          <div class="icon icon-sc"></div>
+          水槽
+        </div>
+        <div class="menu-item">
+          <div class="icon icon-pj"></div>
+          配件
+        </div>
+      </div>
+    </div>
     <div class="swiper-wrapper">
       <div class="swiper-slide">
         <img src="../src/img/banner.png" alt="" />
@@ -71,29 +53,21 @@
   </div>
   <div class="banner-product">
     <a href="" class="list">
-      <div class="title">精选美大集成灶</div>
-      <div class="desc">下吸力</div>
       <div class="pic-box">
         <img src="../src//img/product.png" alt="" />
       </div>
     </a>
     <a href="" class="list">
-      <div class="title">精选美大集成灶</div>
-      <div class="desc">下吸力</div>
       <div class="pic-box">
         <img src="../src//img/product.png" alt="" />
       </div>
     </a>
     <a href="" class="list">
-      <div class="title">精选美大集成灶</div>
-      <div class="desc">下吸力</div>
       <div class="pic-box">
         <img src="../src//img/product.png" alt="" />
       </div>
     </a>
     <a href="" class="list">
-      <div class="title">精选美大集成灶</div>
-      <div class="desc">下吸力</div>
       <div class="pic-box">
         <img src="../src//img/product.png" alt="" />
       </div>
@@ -489,7 +463,7 @@
 
 {% endblock %} {% block script %}
 <script>
-  $('.section-rank  .tabs .tab').click(function() {
+  $('.section-rank  .tabs .tab').click(function () {
     var index = $(this).index()
     $(this)
       .addClass('tab-active')
@@ -504,7 +478,7 @@
   $('.section-rank .tab')
     .eq(0)
     .trigger('click')
-  $('.section-recommend  .tabs .tab').click(function() {
+  $('.section-recommend  .tabs .tab').click(function () {
     var index = $(this).index()
     $(this)
       .addClass('tab-active')
