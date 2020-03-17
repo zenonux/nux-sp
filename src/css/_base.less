@@ -1,12 +1,23 @@
-@import './_mixins.less';
+@import "./_mixins.less";
 html,
 body {
   margin: 0;
   padding: 0;
-  font-family: 'microsoft', 'PingFang SC', miui, system-ui, -apple-system,
+  font-family: "microsoft", "PingFang SC", miui, system-ui, -apple-system,
     BlinkMacSystemFont, Helvetica Neue, Helvetica, sans-serif;
   font-size: 12px;
   color: #282828;
+}
+ul {
+  list-style: none;
+}
+ul,
+li,
+dl,
+dd,
+p {
+  margin: 0;
+  padding: 0;
 }
 a {
   color: inherit;
@@ -32,7 +43,7 @@ a {
 .clearfix:before,
 .clearfix:after {
   display: table;
-  content: '';
+  content: "";
 }
 .clearfix:after {
   clear: both;

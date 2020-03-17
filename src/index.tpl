@@ -1,4 +1,35 @@
 {% extends './layout.tpl' %} {% block content %}
+<div class="header header_index">
+  <div class="headerBottom">
+    <input type="button" class="cartItemListButton showCartItemList" value="购物车"
+      onclick="window.open('/b/cartItem/list?shopId=44c94f1237a7408a811f533d99b3a968')">
+    <ul id="cartItemListDetail"></ul>
+    <div class="headerMiddleNav">
+      <ul class="headerMiddleNavContent png">
+        <li class="active">
+          <a href="">首页</a>
+        </li>
+        <li>
+          <a href="/md/article/201612/1482890298291.html">企业简介</a>
+        </li>
+        <li class="listdown">
+          <a class="all">全部商品</a>
+        </li>
+        <li>
+          <a target="_blank" href="/md/article/201612/1482481209439.html">免责声明</a>
+        </li>
+        <li>
+          <a target="_blank" href="http://meidashop.com/md/article/201612/1482808014097.html">安装指南</a>
+        </li>
+        <li>
+          <a target="_blank"
+            href="http://meidashop.com/html/article_content/201611/07db9586e1a143b8822f27f4cc13bc4f.html">买家须知</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</div>
 <div class="page-container page-home">
 
   <div class="banner swiper-container">

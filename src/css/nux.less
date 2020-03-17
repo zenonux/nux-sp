@@ -1,6 +1,7 @@
 @import "./_mixins.less";
 @import "./_base.less";
-
+@import "./_header.less";
+@import "./_footer.less";
 html,
 body {
   font-size: 14px;
@@ -18,6 +19,70 @@ body {
 .page-container {
   width: 1200px;
   margin: 0 auto;
+}
+.header.header_index {
+  height: auto;
+  width: 100%;
+  left: 0px;
+  box-shadow: -5px 2px 22px rgba(51, 51, 51, 0.33);
+  height: 68px;
+  position: relative;
+  z-index: 97;
+  background: #fff;
+}
+
+.header.header_index .headerBottom .headerMiddleNavContent {
+  width: 100%;
+  background: #fff;
+  height: 68px;
+}
+
+.header.header_index .headerBottom .headerMiddleNavContent li {
+  height: 68px;
+  line-height: 68px;
+  float: left;
+  padding: 0px 15px;
+  margin-left: 25px;
+}
+
+.header.header_index .headerBottom .headerMiddleNavContent li a {
+  color: #333;
+  cursor: pointer;
+}
+.header.header_index .headerBottom .cartItemListButton {
+  display: inline-block;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  padding-left: 35px;
+  line-height: 29px;
+  height: 35px;
+  width: 105px;
+  font-size: 14px;
+  margin-left: 3px;
+  margin-top: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(153, 153, 153, 0.71);
+  border-radius: 4px;
+  background: url("../img/icon-shopcar-4.png") 10px 50% no-repeat;
+  top: 7px;
+  right: 0px;
+}
+.header.header_index .headerBottom .headerMiddleNavContent li.active {
+  background: url(../img/xian.png) center 50px no-repeat;
+}
+.header.header_index .headerBottom .headerMiddleNavContent li:hover {
+  background: url(../img/xian.png) center 50px no-repeat;
+}
+.header.header_index .headerBottom .cartItemListButton:hover {
+  border-color: #118ace;
+}
+
+.header.header_index .headerBottom #cartItemListDetail {
+  top: 51px;
 }
 
 .page-home {
