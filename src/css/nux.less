@@ -139,20 +139,43 @@ body {
     .submenu {
       display: none;
       position: absolute;
-      padding: 20px 45px;
-      width: 420px;
-      right: -420px;
+      padding: 20px 0;
+      width: 750px;
+      right: -750px;
       top: 0;
       background: #fff;
       height: 480px;
       color: #282828;
       .title {
         color: @color-primary;
-        margin-bottom: 15px;
+        margin-bottom: 20px;
+        margin-left: 20px;
       }
       .opts {
         float: left;
-        margin-right: 40px;
+        width: 250px;
+        border-top: solid 1px #eee;
+        border-bottom: solid 1px #eee;
+        border-right: solid 1px #eee;
+        text-align: center;
+        .pic-box {
+          height: 240px;
+          .flex-center();
+          margin: 20px 0;
+          img {
+            max-width: 100%;
+            max-height: 100%;
+          }
+        }
+        .small {
+          font-size: 12px;
+        }
+        .price {
+          font-size: 18px;
+          margin-top: 5px;
+          color: red;
+          margin-bottom: 15px;
+        }
       }
     }
     .menu-item {

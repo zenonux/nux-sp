@@ -43,8 +43,39 @@
               <div class="title">
                 集成灶
               </div>
-              <a href="" class="opts">侧吸式</a>
-              <a href="" class="opts">环吸式</a>
+              <a href="" class="opts">
+                <div class="pic-box">
+                  <img src="http://47.100.108.109:8081/upload/image/201707/f616076c6fa4404d91dec06176ae3a5f_big.jpg"
+                    alt="">
+                </div>
+                <div class="type">sddsf</div>
+                <div class="price">
+                  <span class="small"> ¥</span>
+                  2666
+                </div>
+              </a>
+              <a href="" class="opts">
+                <div class="pic-box">
+                  <img src="http://47.100.108.109:8081/upload/image/201707/f616076c6fa4404d91dec06176ae3a5f_big.jpg"
+                    alt="">
+                </div>
+                <div class="type">sddsf</div>
+                <div class="price">
+                  <span class="small"> ¥</span>
+                  2666
+                </div>
+              </a>
+              <a href="" class="opts">
+                <div class="pic-box">
+                  <img src="http://47.100.108.109:8081/upload/image/201707/f616076c6fa4404d91dec06176ae3a5f_big.jpg"
+                    alt="">
+                </div>
+                <div class="type">sddsf</div>
+                <div class="price">
+                  <span class="small"> ¥</span>
+                  2666
+                </div>
+              </a>
             </div>
           </div>
         </div>
